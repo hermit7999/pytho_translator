@@ -1,7 +1,7 @@
 import soundcard as sc
 
 mics = sc.all_microphones(include_loopback=True)
-# print(mics)
+# print("mics")
 
 for i in range(len(mics)):
     try:
