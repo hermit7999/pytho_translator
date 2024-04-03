@@ -29,7 +29,7 @@ class LoopbackAudio(threading.Thread):
 
 class Audio(object):
     """Streams raw audio from microphone. Data is received in a separate thread, and stored in a buffer, to be read from."""
-
+    # you can change the blocks_per_second
     RATE_PROCESS = DEFAULT_SAMPLE_RATE
     CHANNELS = 1
     BLOCKS_PER_SECOND = 5

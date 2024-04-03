@@ -161,5 +161,4 @@ class WhisperPy(ttk.Window):
         return textbox
 
 
-# WhisperPy(title='SSShin', size=(800, 600),header_text='SSS Translator', theme='vapor')
 WhisperPy(title='SSShin', size=(800, 600),header_text='SSS Translator')
