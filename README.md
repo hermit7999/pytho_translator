@@ -1,1 +1,1 @@
-# pytho_translator
+# python_translator
